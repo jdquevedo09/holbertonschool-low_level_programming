@@ -1,7 +1,6 @@
 #include <stdio.h>
 main(void)
 {
-char a[] = "\"Programming is like building a multilingual puzzle";
-puts(a);
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
