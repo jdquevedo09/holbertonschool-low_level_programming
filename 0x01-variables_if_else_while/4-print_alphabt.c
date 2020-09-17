@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 /**
 *main - Void
 *Return: 0
@@ -11,7 +11,7 @@ while (x < 'z')
 if (x != 'e' && x != 'q')
 putchar(x);
 x++;
-else
+if (x == 'e' || x == 'q')
 {
 x++;
 }
