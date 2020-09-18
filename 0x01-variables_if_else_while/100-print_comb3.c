@@ -11,7 +11,8 @@ for (x = 48 ; x < 58 ; x++)
 {
 for (y = 48; y < 58 ; y++)
 {
-if(x<y){
+if( x < y )
+{
 putchar(x);
 putchar(y);
 if (x == 56 && y == 57)
